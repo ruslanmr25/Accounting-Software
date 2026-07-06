@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@theme {
+  --font-main: Public Sans;
+  --color-main: #570DE6;
+
+  --color-secondary: #001A67;
+
+  --color-third: #EBE2FC;
+}
+
+
+@layer components {
+  .nav-link {
+    @apply text-secondary transition-colors duration-200
+  }
+
+  .nav-link:hover .nav-link:active {
+    @apply text-main
+  }
+}
