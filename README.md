@@ -7,7 +7,7 @@ Modern and responsive (only desktop and mobile version supported) web design tem
 
 ### For Desktop
 
-![Desktop version] (/public/screenshots/desktop1.png)
+![Desktop version] (/screenshots/desktop1.png)
 ![Desktop version] (/public/screenshots/desktop2.png)
 
 ![Desktop version] (/public/screenshots/desktop3.png)
